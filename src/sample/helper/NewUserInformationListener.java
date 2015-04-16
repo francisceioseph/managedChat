@@ -9,7 +9,7 @@ import net.jini.export.Exporter;
 import net.jini.jeri.BasicILFactory;
 import net.jini.jeri.BasicJeriExporter;
 import net.jini.jeri.tcp.TcpServerEndpoint;
-import sample.model.MessageTuple;
+import sample.model.UserInformationTuple;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -17,23 +17,24 @@ import java.rmi.server.UnicastRemoteObject;
 /**
  * Created by francisco on 16/04/15.
  */
-public class MessageListener implements RemoteEventListener {
-    private final MessageTuple template;
-    public final RemoteEventListener stub;
+public class NewUserInformationListener implements RemoteEventListener{
+    UserInformationTuple template;
+    public RemoteEventListener stub;
 
-    public MessageListener(MessageTuple template) throws RemoteException {
+    public NewUserInformationListener(UserInformationTuple template) throws RemoteException {
         this.template = template;
         Exporter myDefaultExporter = new BasicJeriExporter(TcpServerEndpoint.getInstance(0),
-                new BasicILFactory(), false, true);
+                                                            new BasicILFactory(), false, true);
 
         stub = (RemoteEventListener) myDefaultExporter.export(this);
     }
 
     @Override
     public void notify(RemoteEvent remoteEvent) throws UnknownEventException, RemoteException {
+        System.out.println("New User Added");
 
         try {
-            MessageTuple messageRecord = Singleton.INSTANCE.readMessageFromSpace(this.template);
+            UserInformationTuple newUser = Singleton.INSTANCE.readUserTuple(this.template);
         } catch (TransactionException e) {
             e.printStackTrace();
         } catch (UnusableEntryException e) {
@@ -41,6 +42,5 @@ public class MessageListener implements RemoteEventListener {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }

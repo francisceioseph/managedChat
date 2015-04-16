@@ -1,4 +1,6 @@
 package sample.helper;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.lease.Lease;
 import net.jini.core.transaction.TransactionException;
@@ -6,7 +8,10 @@ import net.jini.space.JavaSpace;
 import sample.model.MessageTuple;
 import sample.model.UserInformationTuple;
 
+import java.io.IOException;
+import java.rmi.MarshalledObject;
 import java.rmi.RemoteException;
+import java.util.ArrayList;
 
 /**
  * Created by francisco on 15/04/15.
@@ -15,6 +20,8 @@ public enum Singleton {
     INSTANCE;
     public JavaSpace space;
     public String username;
+    public ObservableList<UserInformationTuple> chatUsers = FXCollections.observableArrayList();
+
 
 
 //    ************************
@@ -50,6 +57,11 @@ public enum Singleton {
         this.space.notify(template, null, spyMessagesListener, Lease.FOREVER, null);
     }
 
+    public void registerForNewUserSubscription(UserInformationTuple template) throws IOException, TransactionException {
+        NewUserInformationListener newUserInformationListener = new NewUserInformationListener(null);
+        this.space.notify(template, null, newUserInformationListener.stub, 24*60*60*1000, new MarshalledObject(new Integer(12345)));
+    }
+
     public void writeMessageOnSpace(String from, String to, String message) throws RemoteException, TransactionException {
         MessageTuple messageRecord;
         messageRecord = new MessageTuple(from, to, message, false);
@@ -62,17 +74,44 @@ public enum Singleton {
 
     public void signUp(String username, String password) throws RemoteException, TransactionException {
         UserInformationTuple userInformationTuple = new UserInformationTuple(password, username);
-        this.space.write(userInformationTuple, null, Long.MAX_VALUE);
+        this.writeUserTuple(userInformationTuple);
     }
 
     public boolean signIn(String username, String password) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
         UserInformationTuple template = new UserInformationTuple(password, username);
-        UserInformationTuple queryResult = (UserInformationTuple) this.space.read(template, null, Long.MAX_VALUE);
+        UserInformationTuple queryResult = this.readUserTuple(template);
 
-        if(queryResult != null){
+        if (queryResult != null) {
             return true;
         }
 
         return false;
+    }
+
+    private void writeUserTuple(UserInformationTuple userTuple) throws RemoteException, TransactionException {
+        this.space.write(userTuple, null, Long.MAX_VALUE);
+    }
+
+    public UserInformationTuple readUserTuple(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
+        return (UserInformationTuple) this.space.read(template, null, 1000);
+    }
+
+    private UserInformationTuple takeUsertuple(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
+        return (UserInformationTuple) this.space.take(template, null, 1000);
+    }
+
+    public ArrayList<UserInformationTuple> listChatUsers(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
+        ArrayList<UserInformationTuple> tuples = new ArrayList<UserInformationTuple>();
+        UserInformationTuple tuple;
+
+        while((tuple = (UserInformationTuple) this.takeUsertuple(template)) != null) {
+            tuples.add(tuple);
+        }
+
+        for (UserInformationTuple aTuple : tuples){
+            this.writeUserTuple(aTuple);
+        }
+
+        return tuples;
     }
 }
