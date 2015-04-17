@@ -9,7 +9,7 @@ public class MessageTuple implements Entry{
     public String userFrom;
     public String userTo;
     public String content;
-    public boolean checked;
+    public Boolean checked;
 
     public MessageTuple() {
     }

@@ -15,6 +15,7 @@ import net.jini.core.transaction.TransactionException;
 import sample.Main;
 import sample.helper.Singleton;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.net.URL;
 import java.rmi.RemoteException;
@@ -31,6 +32,7 @@ public class SignInWindowController implements Initializable{
 
         try {
             Singleton.INSTANCE.signUp(username, password);
+            JOptionPane.showMessageDialog(null, "Usuário Cadastrado com Sucesso!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
         }
         catch (RemoteException e) {
             System.out.println("Connection Error...");
@@ -51,11 +53,13 @@ public class SignInWindowController implements Initializable{
                 System.out.println("User Logged");
                 Singleton.INSTANCE.setUsername(username);
 
-                this.loadUsersListWindow();
+                Stage stage = Singleton.INSTANCE.loadWindow("view/usersListWindow.fxml");
+                stage.show();
+
                 this.closeWindow();
             }
             else {
-                System.out.println("User not Logged");
+                JOptionPane.showMessageDialog(null, "Usuário não cadastrado no sistema...", "Aviso", JOptionPane.ERROR_MESSAGE);
             }
         } catch (TransactionException e) {
             e.printStackTrace();
@@ -71,22 +75,6 @@ public class SignInWindowController implements Initializable{
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         //this.labelId.getStyleClass().add("chat-bubble-from");
-    }
-
-    private void loadUsersListWindow(){
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/usersListWindow.fxml"));
-
-        try {
-            Parent root = (Parent) fxmlLoader.load();
-            Scene scene = new Scene(root);
-
-            Stage stage = new Stage();
-            stage.setScene(scene);
-            stage.show();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     private void closeWindow(){

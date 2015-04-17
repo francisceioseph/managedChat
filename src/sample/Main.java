@@ -20,24 +20,13 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("view/signInWindow.fxml"));
         primaryStage.setScene(new Scene(root));
 
-        primaryStage.getScene().getStylesheets().add(getClass().getResource("view/bubbleFrom.css").toExternalForm());
+        primaryStage.getScene().getStylesheets().add(getClass().getResource("view/bubbleChat.css").toExternalForm());
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
         Singleton.INSTANCE.tupleSpaceLookup();
-
-        try {
-//            if (System.getSecurityManager() == null)
-//                System.setSecurityManager(new RMISecurityManager());
-
-            Singleton.INSTANCE.registerForNewUserSubscription(new UserInformationTuple());
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (TransactionException e) {
-            e.printStackTrace();
-        }
         launch(args);
     }
 }

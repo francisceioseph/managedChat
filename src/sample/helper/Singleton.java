@@ -1,10 +1,15 @@
 package sample.helper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.lease.Lease;
 import net.jini.core.transaction.TransactionException;
 import net.jini.space.JavaSpace;
+import sample.Main;
 import sample.model.MessageTuple;
 import sample.model.UserInformationTuple;
 
@@ -45,31 +50,13 @@ public enum Singleton {
         this.space = (JavaSpace) finder.getService();
     }
 
-    public void registerForEvaluatedMessages(MessageTuple template) throws RemoteException, TransactionException {
-        MessageListener messageListener = new MessageListener(template);
+    public void writeMessageOnSpace(MessageTuple messageTuple) throws RemoteException, TransactionException {
 
-        this.space.notify(template, null, messageListener, Lease.FOREVER, null);
-    }
-
-    public void registerForSpyMessages(MessageTuple template) throws RemoteException, TransactionException {
-        SpyMessagesListener spyMessagesListener = new SpyMessagesListener(template);
-
-        this.space.notify(template, null, spyMessagesListener, Lease.FOREVER, null);
-    }
-
-    public void registerForNewUserSubscription(UserInformationTuple template) throws IOException, TransactionException {
-        NewUserInformationListener newUserInformationListener = new NewUserInformationListener(null);
-        this.space.notify(template, null, newUserInformationListener.stub, 24*60*60*1000, new MarshalledObject(new Integer(12345)));
-    }
-
-    public void writeMessageOnSpace(String from, String to, String message) throws RemoteException, TransactionException {
-        MessageTuple messageRecord;
-        messageRecord = new MessageTuple(from, to, message, false);
-        this.space.write(messageRecord, null, Long.MAX_VALUE);
+        this.space.write(messageTuple, null, Long.MAX_VALUE);
     }
 
     public MessageTuple readMessageFromSpace (MessageTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
-        return (MessageTuple) this.space.take(template, null, Long.MAX_VALUE);
+        return (MessageTuple) this.space.take(template, null, 100);
     }
 
     public void signUp(String username, String password) throws RemoteException, TransactionException {
@@ -96,7 +83,7 @@ public enum Singleton {
         return (UserInformationTuple) this.space.read(template, null, 1000);
     }
 
-    private UserInformationTuple takeUsertuple(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
+    private UserInformationTuple takeUserTuple(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
         return (UserInformationTuple) this.space.take(template, null, 1000);
     }
 
@@ -104,7 +91,7 @@ public enum Singleton {
         ArrayList<UserInformationTuple> tuples = new ArrayList<UserInformationTuple>();
         UserInformationTuple tuple;
 
-        while((tuple = (UserInformationTuple) this.takeUsertuple(template)) != null) {
+        while((tuple = (UserInformationTuple) this.takeUserTuple(template)) != null) {
             tuples.add(tuple);
         }
 
@@ -113,5 +100,27 @@ public enum Singleton {
         }
 
         return tuples;
+    }
+
+    // ************************************
+    // GUI Methods
+    // ************************************
+
+    public Stage loadWindow(String path){
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(path));
+
+        try {
+            Parent root = (Parent) fxmlLoader.load();
+            Scene scene = new Scene(root);
+
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            return stage;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }
