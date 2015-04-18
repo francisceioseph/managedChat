@@ -20,4 +20,9 @@ public class MessageTuple implements Entry{
         this.content = content;
         this.checked = checked;
     }
+
+    @Override
+    public String toString() {
+        return String.format("{userFrom: %s\n userTo: %s\n content:%s\n checked: %b }", userFrom, userTo, content, checked);
+    }
 }

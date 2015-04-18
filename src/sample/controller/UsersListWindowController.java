@@ -1,12 +1,11 @@
 package sample.controller;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
@@ -14,12 +13,15 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import javafx.util.Callback;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
+import sample.Main;
 import sample.helper.Singleton;
 import sample.model.UserInformationTuple;
 
+import java.io.IOException;
 import java.net.URL;
 import java.rmi.RemoteException;
 import java.util.ResourceBundle;
@@ -51,7 +53,7 @@ public class UsersListWindowController implements Initializable{
 
     public void populateUsersFromChat() throws RemoteException, TransactionException, InterruptedException, UnusableEntryException {
         UserInformationTuple template = new UserInformationTuple();
-        Singleton.INSTANCE.chatUsers.addAll(Singleton.INSTANCE.listChatUsers(new UserInformationTuple()));
+        Singleton.INSTANCE.chatUsers.addAll(Singleton.INSTANCE.listChatUsers(template));
     }
 
     public void updateUserList(ActionEvent actionEvent) {
@@ -70,6 +72,7 @@ public class UsersListWindowController implements Initializable{
         @Override
         public void updateItem(UserInformationTuple item, boolean empty) {
             super.updateItem(item, empty);
+
             final HBox hBox = new HBox();
             final Label label = new Label();
 
@@ -77,17 +80,50 @@ public class UsersListWindowController implements Initializable{
                 label.setText(item.username);
                 label.setFont(labelFont);
 
+                final String username = item.username;
+
                 hBox.setOnMouseClicked(new EventHandler<MouseEvent>() {
                     @Override
                     public void handle(MouseEvent mouseEvent) {
-                        Stage stage = Singleton.INSTANCE.loadWindow("view/chatWindow.fxml");
-                        stage.setTitle(label.getText());
+                        Stage stage = loadChatWindow(username);
+                        stage.setTitle(Singleton.INSTANCE.username + "  talks to  " + username);
                         stage.show();
                     }
                 });
+
                 hBox.getChildren().add(label);
                 setGraphic(hBox);
             }
+        }
+
+        public Stage loadChatWindow(String username) {
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/chatWindow.fxml"));
+
+            try {
+                Parent root = (Parent) fxmlLoader.load();
+
+                final ChatWindowController controller = fxmlLoader.<ChatWindowController>getController();
+                controller.anotherUsername = username;
+
+                Scene scene = new Scene(root);
+                Stage stage = new Stage();
+
+                stage.setScene(scene);
+
+                stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+                    @Override
+                    public void handle(WindowEvent windowEvent) {
+                        controller.finder.alive = false;
+                    }
+                });
+
+                return stage;
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
         }
     }
 }

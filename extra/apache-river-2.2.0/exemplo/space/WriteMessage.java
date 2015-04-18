@@ -1,4 +1,5 @@
 import net.jini.space.JavaSpace;
+
 import java.util.Scanner;
 
 public class WriteMessage {

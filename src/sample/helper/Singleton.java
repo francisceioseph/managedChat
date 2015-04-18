@@ -1,4 +1,5 @@
 package sample.helper;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
@@ -6,7 +7,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import net.jini.core.entry.UnusableEntryException;
-import net.jini.core.lease.Lease;
 import net.jini.core.transaction.TransactionException;
 import net.jini.space.JavaSpace;
 import sample.Main;
@@ -14,7 +14,6 @@ import sample.model.MessageTuple;
 import sample.model.UserInformationTuple;
 
 import java.io.IOException;
-import java.rmi.MarshalledObject;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
@@ -26,7 +25,7 @@ public enum Singleton {
     public JavaSpace space;
     public String username;
     public ObservableList<UserInformationTuple> chatUsers = FXCollections.observableArrayList();
-
+    public ObservableList<String> observableWords;
 
 
 //    ************************

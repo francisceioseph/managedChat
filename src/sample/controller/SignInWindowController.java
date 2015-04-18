@@ -1,22 +1,17 @@
 package sample.controller;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
-import sample.Main;
 import sample.helper.Singleton;
+import sample.model.UserInformationTuple;
 
 import javax.swing.*;
-import java.io.IOException;
 import java.net.URL;
 import java.rmi.RemoteException;
 import java.util.ResourceBundle;
@@ -30,6 +25,18 @@ public class SignInWindowController implements Initializable{
         String username = usernameTextField.getText();
         String password = passwordTextField.getText();
 
+        UserInformationTuple userTuple = this.retreaveUserByName(username);
+
+        if(userTuple == null){
+            this.registerNewUser(username, password);
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Usuário já cadastrado!", "Aviso", JOptionPane.ERROR_MESSAGE);
+        }
+
+    }
+
+    private void registerNewUser(String username, String password) {
         try {
             Singleton.INSTANCE.signUp(username, password);
             JOptionPane.showMessageDialog(null, "Usuário Cadastrado com Sucesso!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
@@ -40,6 +47,20 @@ public class SignInWindowController implements Initializable{
         catch (TransactionException e) {
             System.out.println("Connection Error...");
         }
+    }
+
+    private UserInformationTuple retreaveUserByName(String username) {
+
+        UserInformationTuple template = new UserInformationTuple(null, username);
+        try {
+
+            UserInformationTuple retreavedTuple = Singleton.INSTANCE.readUserTuple(template);
+            return retreavedTuple;
+
+        } catch (Exception e) {
+            return null;
+        }
+
     }
 
     public void signIn(ActionEvent actionEvent) {
@@ -54,6 +75,7 @@ public class SignInWindowController implements Initializable{
                 Singleton.INSTANCE.setUsername(username);
 
                 Stage stage = Singleton.INSTANCE.loadWindow("view/usersListWindow.fxml");
+                stage.setTitle("Managed Chat: " + username);
                 stage.show();
 
                 this.closeWindow();
@@ -74,7 +96,6 @@ public class SignInWindowController implements Initializable{
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        //this.labelId.getStyleClass().add("chat-bubble-from");
     }
 
     private void closeWindow(){

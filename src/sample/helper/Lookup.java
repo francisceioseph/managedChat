@@ -1,15 +1,13 @@
 package sample.helper;
 
-import java.io.IOException;
-
-import java.rmi.RemoteException;
-
 import net.jini.core.lookup.ServiceRegistrar;
 import net.jini.core.lookup.ServiceTemplate;
-
-import net.jini.discovery.LookupDiscovery;
-import net.jini.discovery.DiscoveryListener;
 import net.jini.discovery.DiscoveryEvent;
+import net.jini.discovery.DiscoveryListener;
+import net.jini.discovery.LookupDiscovery;
+
+import java.io.IOException;
+import java.rmi.RemoteException;
 
 /**
    A class which supports a simple JINI multicast lookup.  It doesn't register
