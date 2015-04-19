@@ -4,7 +4,6 @@ import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;
@@ -13,10 +12,9 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Font;
-import javafx.stage.WindowEvent;
 import javafx.util.Callback;
 import net.jini.core.transaction.TransactionException;
-import sample.helper.Singleton;
+import sample.helper.javaSpaces.JavaSpacesSingleton;
 import sample.model.MessageTuple;
 
 import java.net.URL;
@@ -35,8 +33,13 @@ public class ChatWindowController implements Initializable{
     public MessagesFinder finder;
 
     public void enviarMensagem(ActionEvent actionEvent) {
+
+        if (messageTextField.getText().equals("") || messageTextField.getText().equals(" ")){
+            return;
+        }
+
         MessageTuple tupleToSend = new MessageTuple(
-                Singleton.INSTANCE.username,
+                JavaSpacesSingleton.INSTANCE.username,
                 anotherUsername,
                 messageTextField.getText(),
                 false
@@ -44,7 +47,7 @@ public class ChatWindowController implements Initializable{
 
         try {
 
-            Singleton.INSTANCE.writeMessageOnSpace(tupleToSend);
+            JavaSpacesSingleton.INSTANCE.writeMessageOnSpace(tupleToSend);
             System.out.println("\n Mensagem Enviada: \n" + tupleToSend.toString());
             messages.add(tupleToSend);
             messageTextField.clear();
@@ -99,7 +102,7 @@ public class ChatWindowController implements Initializable{
                 label.setText(builder.toString());
                 label.setFont(labelFont);
 
-                if (item.userFrom.equals(Singleton.INSTANCE.username) ) {
+                if (item.userFrom.equals(JavaSpacesSingleton.INSTANCE.username) ) {
                     label.setStyle("-fx-shape:\"m 263.40043,371.81354 239.20661,0 c 11.29436,2.52786 12.09164,7.15514 13.26758,11.70669 l 0.78044,108.87218 -252.47419,1.17066 c -8.99968,-2.6432 -10.99897,-9.28662 -12.87735,-15.99913 l 0,-88.97081 c 0.89009,-7.29788 2.65743,-14.11985 12.09691,-16.77959 z\";" +
                                     "-fx-background-color: #AD1457;" +
                                     "-fx-background-insets:0,0;" +
@@ -138,7 +141,7 @@ public class ChatWindowController implements Initializable{
 
         @Override
         public void run() {
-            template = new MessageTuple(anotherUsername, Singleton.INSTANCE.username, null, true);
+            template = new MessageTuple(anotherUsername, JavaSpacesSingleton.INSTANCE.username, null, true);
             System.out.println("\n Template de Procura: \n" + template.toString());
 
             while (alive) {
@@ -151,7 +154,7 @@ public class ChatWindowController implements Initializable{
                     //Devolve a tupla pro espaço caso a janela seja encerrada durante uma leitura.
                     if (!alive && tuple !=  null){
                         try {
-                            Singleton.INSTANCE.writeMessageOnSpace(tuple);
+                            JavaSpacesSingleton.INSTANCE.writeMessageOnSpace(tuple);
                         } catch (RemoteException e) {
                             e.printStackTrace();
                         } catch (TransactionException e) {
@@ -179,7 +182,7 @@ public class ChatWindowController implements Initializable{
 
         private MessageTuple retrieveAnalysedMessage() {
             try {
-                return Singleton.INSTANCE.readMessageFromSpace(template);
+                return JavaSpacesSingleton.INSTANCE.readMessageFromSpace(template);
             } catch (Exception e) {
                 return null;
             }

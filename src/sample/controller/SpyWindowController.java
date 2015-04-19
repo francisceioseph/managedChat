@@ -6,8 +6,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
-import sample.helper.MessagesAnalyser;
-import sample.helper.Singleton;
+import sample.helper.javaSpaces.JavaSpacesSingleton;
+import sample.helper.javaSpaces.MessagesAnalyser;
+import sample.helper.webService.wsGeneratedFiles.NotificationsWebService;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -26,15 +27,15 @@ public class SpyWindowController implements Initializable{
         String newWord = newWordTextField.getText();
 
         if (!newWord.equals(" ") && !newWord.equals("")) {
-            Singleton.INSTANCE.observableWords.add(newWord);
+            JavaSpacesSingleton.INSTANCE.observableWords.add(newWord);
             newWordTextField.clear();
         }
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        Singleton.INSTANCE.observableWords = FXCollections.observableArrayList();
-        wordsListView.setItems(Singleton.INSTANCE.observableWords);
+        JavaSpacesSingleton.INSTANCE.observableWords = FXCollections.observableArrayList();
+        wordsListView.setItems(JavaSpacesSingleton.INSTANCE.observableWords);
     }
 
     private void startWordAnalyses(){

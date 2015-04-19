@@ -17,8 +17,8 @@ import javafx.stage.WindowEvent;
 import javafx.util.Callback;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
-import sample.Main;
-import sample.helper.Singleton;
+import sample.main.ChatMain;
+import sample.helper.javaSpaces.JavaSpacesSingleton;
 import sample.model.UserInformationTuple;
 
 import java.io.IOException;
@@ -41,7 +41,7 @@ public class UsersListWindowController implements Initializable{
             e.printStackTrace();
         }
 
-        this.usersList.setItems(Singleton.INSTANCE.chatUsers);
+        this.usersList.setItems(JavaSpacesSingleton.INSTANCE.chatUsers);
 
         this.usersList.setCellFactory(new Callback<ListView<UserInformationTuple>, ListCell<UserInformationTuple>>() {
             @Override
@@ -53,12 +53,12 @@ public class UsersListWindowController implements Initializable{
 
     public void populateUsersFromChat() throws RemoteException, TransactionException, InterruptedException, UnusableEntryException {
         UserInformationTuple template = new UserInformationTuple();
-        Singleton.INSTANCE.chatUsers.addAll(Singleton.INSTANCE.listChatUsers(template));
+        JavaSpacesSingleton.INSTANCE.chatUsers.addAll(JavaSpacesSingleton.INSTANCE.listChatUsers(template));
     }
 
     public void updateUserList(ActionEvent actionEvent) {
         try {
-            Singleton.INSTANCE.chatUsers.clear();
+            JavaSpacesSingleton.INSTANCE.chatUsers.clear();
             this.populateUsersFromChat();
         }
         catch (Exception e) {
@@ -86,7 +86,7 @@ public class UsersListWindowController implements Initializable{
                     @Override
                     public void handle(MouseEvent mouseEvent) {
                         Stage stage = loadChatWindow(username);
-                        stage.setTitle(Singleton.INSTANCE.username + "  talks to  " + username);
+                        stage.setTitle(JavaSpacesSingleton.INSTANCE.username + "  talks to  " + username);
                         stage.show();
                     }
                 });
@@ -97,7 +97,7 @@ public class UsersListWindowController implements Initializable{
         }
 
         public Stage loadChatWindow(String username) {
-            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/chatWindow.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(ChatMain.class.getResource("../view/chatWindow.fxml"));
 
             try {
                 Parent root = (Parent) fxmlLoader.load();

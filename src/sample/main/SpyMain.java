@@ -1,4 +1,4 @@
-package sample;
+package sample.main;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import sample.controller.SpyWindowController;
-import sample.helper.Singleton;
+import sample.helper.javaSpaces.JavaSpacesSingleton;
 
 /**
  * Created by francisco on 18/04/15.
@@ -17,7 +17,7 @@ public class SpyMain extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/spyWindow.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(ChatMain.class.getResource("../view/spyWindow.fxml"));
         Parent root = (Parent) fxmlLoader.load();
         primaryStage.setScene(new Scene(root));
         primaryStage.setTitle("Spy O.O");
@@ -38,7 +38,7 @@ public class SpyMain extends Application {
 
 
     public static void main(String[] args) {
-        Singleton.INSTANCE.tupleSpaceLookup();
+        JavaSpacesSingleton.INSTANCE.tupleSpaceLookup();
         launch(args);
     }
 }

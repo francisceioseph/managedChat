@@ -1,4 +1,4 @@
-package sample.helper;
+package sample.helper.javaSpaces;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
 import net.jini.space.JavaSpace;
-import sample.Main;
+import sample.main.ChatMain;
 import sample.model.MessageTuple;
 import sample.model.UserInformationTuple;
 
@@ -20,7 +20,7 @@ import java.util.ArrayList;
 /**
  * Created by francisco on 15/04/15.
  */
-public enum Singleton {
+public enum JavaSpacesSingleton {
     INSTANCE;
     public JavaSpace space;
     public String username;
@@ -106,7 +106,7 @@ public enum Singleton {
     // ************************************
 
     public Stage loadWindow(String path){
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(path));
+        FXMLLoader fxmlLoader = new FXMLLoader(ChatMain.class.getResource(path));
 
         try {
             Parent root = (Parent) fxmlLoader.load();

@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
-import sample.helper.Singleton;
+import sample.helper.javaSpaces.JavaSpacesSingleton;
 import sample.model.UserInformationTuple;
 
 import javax.swing.*;
@@ -38,7 +38,7 @@ public class SignInWindowController implements Initializable{
 
     private void registerNewUser(String username, String password) {
         try {
-            Singleton.INSTANCE.signUp(username, password);
+            JavaSpacesSingleton.INSTANCE.signUp(username, password);
             JOptionPane.showMessageDialog(null, "Usuário Cadastrado com Sucesso!", "Aviso", JOptionPane.INFORMATION_MESSAGE);
         }
         catch (RemoteException e) {
@@ -54,7 +54,7 @@ public class SignInWindowController implements Initializable{
         UserInformationTuple template = new UserInformationTuple(null, username);
         try {
 
-            UserInformationTuple retreavedTuple = Singleton.INSTANCE.readUserTuple(template);
+            UserInformationTuple retreavedTuple = JavaSpacesSingleton.INSTANCE.readUserTuple(template);
             return retreavedTuple;
 
         } catch (Exception e) {
@@ -68,13 +68,13 @@ public class SignInWindowController implements Initializable{
         String password = passwordTextField.getText();
 
         try {
-            boolean userExists = Singleton.INSTANCE.signIn(username, password);
+            boolean userExists = JavaSpacesSingleton.INSTANCE.signIn(username, password);
 
             if (userExists) {
                 System.out.println("User Logged");
-                Singleton.INSTANCE.setUsername(username);
+                JavaSpacesSingleton.INSTANCE.setUsername(username);
 
-                Stage stage = Singleton.INSTANCE.loadWindow("view/usersListWindow.fxml");
+                Stage stage = JavaSpacesSingleton.INSTANCE.loadWindow("../view/usersListWindow.fxml");
                 stage.setTitle("Managed Chat: " + username);
                 stage.show();
 

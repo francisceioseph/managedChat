@@ -1,6 +1,7 @@
-package sample.helper;
+package sample.helper.javaSpaces;
 
 import net.jini.core.transaction.TransactionException;
+import sample.helper.webService.wsGeneratedFiles.NotificationsWebService;
 import sample.model.MessageTuple;
 
 import java.rmi.RemoteException;
@@ -15,8 +16,16 @@ public class MessagesAnalyser implements Runnable {
     MessageTuple template = new MessageTuple();
     public boolean alive = true;
 
+    //********************************
+    //       WS Variables
+    //********************************
+    public sample.helper.webService.wsGeneratedFiles.NotificationsWebInterface notificationsWebService;
+
+
     @Override
     public void run() {
+        this.connectToWebService();
+
         template.checked = false;
 
         MessageTuple tupleToAnalyse;
@@ -25,7 +34,7 @@ public class MessagesAnalyser implements Runnable {
         while (alive) {
             tupleToAnalyse = this.retrieveUncheckedTuple();
 
-            if(Singleton.INSTANCE.observableWords != null && tupleToAnalyse != null){
+            if(JavaSpacesSingleton.INSTANCE.observableWords != null && tupleToAnalyse != null){
 
                 wordsFound = this.analyseTuple(tupleToAnalyse);
 
@@ -43,7 +52,7 @@ public class MessagesAnalyser implements Runnable {
         tupleToAnalyse.checked = true;
 
         try {
-            Singleton.INSTANCE.writeMessageOnSpace(tupleToAnalyse);
+            JavaSpacesSingleton.INSTANCE.writeMessageOnSpace(tupleToAnalyse);
         } catch (RemoteException e) {
             e.printStackTrace();
         } catch (TransactionException e) {
@@ -52,14 +61,17 @@ public class MessagesAnalyser implements Runnable {
     }
 
     private void sendInformationToWS(MessageTuple tupleToAnalyse, ArrayList wordsFound) {
-        System.out.println("Detected Suspicious message: " + tupleToAnalyse);
+        if (this.notificationsWebService != null){
+            this.notificationsWebService.notifyChatManager(("Detected Suspicious message: " + tupleToAnalyse));
+        }
     }
 
     private ArrayList analyseTuple(MessageTuple tupleToAnalyse) {
         ArrayList<String> wordsFound = new ArrayList<String>();
+        String messageToAnalyse = tupleToAnalyse.content.toLowerCase();
 
-        for (String word : Singleton.INSTANCE.observableWords){
-            if (tupleToAnalyse.content.contains(word)){
+        for (String word : JavaSpacesSingleton.INSTANCE.observableWords){
+            if (messageToAnalyse.contains(word.toLowerCase())){
                 wordsFound.add(word);
             }
         }
@@ -69,10 +81,15 @@ public class MessagesAnalyser implements Runnable {
 
     private MessageTuple retrieveUncheckedTuple() {
         try {
-            MessageTuple tuple = Singleton.INSTANCE.readMessageFromSpace(this.template);
+            MessageTuple tuple = JavaSpacesSingleton.INSTANCE.readMessageFromSpace(this.template);
             return tuple;
         } catch (Exception e) {
             return null;
         }
+    }
+
+    public void connectToWebService(){
+        NotificationsWebService webService = new NotificationsWebService();
+        this.notificationsWebService = webService.getNotificationsWebPort();
     }
 }

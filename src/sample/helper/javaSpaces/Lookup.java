@@ -1,4 +1,4 @@
-package sample.helper;
+package sample.helper.javaSpaces;
 
 import net.jini.core.lookup.ServiceRegistrar;
 import net.jini.core.lookup.ServiceTemplate;
