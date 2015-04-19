@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<GridPane alignment="center" hgap="10" prefHeight="297.0" prefWidth="380.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SpyWindowController">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER" prefWidth="370.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints minHeight="280.0" prefHeight="180.0" />
+        <RowConstraints minHeight="40.0" prefHeight="30.0" />
+    </rowConstraints>
+    <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+              <Label text="Palavras Monitoradas">
+                  <font>
+                      <Font size="19.0" />
+                  </font>
+            </Label>
+            <ToggleButton fx:id="startButton" mnemonicParsing="false" onAction="#onStartButtonClick" text="Start Analyses" />
+         </children>
+      </HBox>
+        <ListView fx:id="wordsListView" prefHeight="280.0" prefWidth="374.0" GridPane.rowIndex="1" />
+        <HBox prefHeight="75.0" prefWidth="350.0" spacing="20.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <children>
+                <TextField fx:id="newWordTextField" prefHeight="25.0" prefWidth="258.0" />
+                <Button defaultButton="true" mnemonicParsing="false" onAction="#includeObservableWord" prefHeight="25.0" prefWidth="82.0" text="Include" />
+            </children>
+        </HBox>
+    </children>
+    <padding>
+        <Insets top="10.0" />
+    </padding>
+</GridPane>

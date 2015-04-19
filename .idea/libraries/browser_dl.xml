@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="browser-dl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/browser-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/fiddler-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/group-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/jsk-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/mahalo-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/mercury-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/norm-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/outrigger-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/phoenix-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/reggie-dl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extra/apache-river-2.2.0/lib-dl/sdm-dl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
