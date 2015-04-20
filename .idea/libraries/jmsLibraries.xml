@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jmsLibraries">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/extra/openjms/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/extra/openjms/lib" recursive="false" />
+  </library>
+</component>

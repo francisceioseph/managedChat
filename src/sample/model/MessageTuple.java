@@ -23,6 +23,6 @@ public class MessageTuple implements Entry{
 
     @Override
     public String toString() {
-        return String.format("{userFrom: %s\n userTo: %s\n content:%s\n checked: %b }", userFrom, userTo, content, checked);
+        return String.format("\n From: %s\n To: %s\n Content:%s\n", userFrom, userTo, content);
     }
 }

@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="lib">
+  <library name="javaspacesLibraries">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/extra/apache-river-2.2.0/exemplo/lib" />
     </CLASSES>

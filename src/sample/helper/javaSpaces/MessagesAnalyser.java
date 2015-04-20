@@ -1,6 +1,7 @@
 package sample.helper.javaSpaces;
 
 import net.jini.core.transaction.TransactionException;
+import sample.helper.jms.ManagerTopicPublisher;
 import sample.helper.webService.wsGeneratedFiles.NotificationsWebService;
 import sample.model.MessageTuple;
 
