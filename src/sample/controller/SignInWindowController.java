@@ -1,11 +1,13 @@
 package sample.controller;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import net.jini.core.entry.UnusableEntryException;
 import net.jini.core.transaction.TransactionException;
 import sample.helper.javaSpaces.JavaSpacesSingleton;
@@ -76,6 +78,14 @@ public class SignInWindowController implements Initializable{
 
                 Stage stage = JavaSpacesSingleton.INSTANCE.loadWindow("../view/usersListWindow.fxml");
                 stage.setTitle("Managed Chat: " + username);
+
+                stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+                    @Override
+                    public void handle(WindowEvent windowEvent) {
+                        System.exit(0);
+                    }
+                });
+
                 stage.show();
 
                 this.closeWindow();
