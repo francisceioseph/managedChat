@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-2015-04-20 16:48:08.442 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.1.1.0 - (208786): instance c013800d-014c-d7ba-d6bf-00007bb1edf7
-on database directory /Users/francisco/IdeaProjects/managedChat/extra/openjms/db/openjmsdb 
+2015-04-23 15:56:49.609 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.1.1.0 - (208786): instance c013800d-014c-e6fe-ef35-00005c67efec
+on database directory /home/francisco/IdeaProjects/managedChat/extra/openjms/db/openjmsdb 
 
 Database Class Loader started - derby.database.classpath=''

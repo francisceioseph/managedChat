@@ -88,15 +88,25 @@ public enum JavaSpacesSingleton {
 
     public ArrayList<UserInformationTuple> listChatUsers(UserInformationTuple template) throws TransactionException, UnusableEntryException, RemoteException, InterruptedException {
         ArrayList<UserInformationTuple> tuples = new ArrayList<UserInformationTuple>();
-        UserInformationTuple tuple;
+        UserInformationTuple tuple = null;
+        UserInformationTuple selfTuple = null;
 
         while((tuple = (UserInformationTuple) this.takeUserTuple(template)) != null) {
-            tuples.add(tuple);
+
+            if(tuple.username.equals(username)){
+               selfTuple = tuple;
+            }
+            else {
+                tuples.add(tuple);
+            }
         }
 
         for (UserInformationTuple aTuple : tuples){
             this.writeUserTuple(aTuple);
         }
+
+        if (selfTuple != null)
+            this.writeUserTuple(selfTuple);
 
         return tuples;
     }
@@ -117,7 +127,7 @@ public enum JavaSpacesSingleton {
             return stage;
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Não foi possível carregar a tela...");
         }
 
         return null;

@@ -2,240 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/controller/ChatManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/main/ChatManagerMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/helper/jms/JMSSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/view/chatManager.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jmsLibraries.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/browser_dl.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javaspacesLibraries.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$1.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesFinder.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesFinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesListCell.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesListCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/Lookup.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/Lookup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/model/MessageTuple.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/model/MessageTuple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/MessagesAnalyser.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/MessagesAnalyser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/webservice/NotificationsWeb.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/webservice/NotificationsWeb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/SignInWindowController.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/SignInWindowController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/main/SpyMain$1.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/main/SpyMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$1.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell$1.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell$2.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/UsersListWindowController$UserListCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/add.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/add.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/antlr-2.7.2.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/antlr-2.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c10.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c10.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c101.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c111.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c121.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c130.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c130.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c141.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c141.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c150.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c150.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c161.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c161.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c171.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c171.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c180.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c180.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c191.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c191.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1a1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1c0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1c0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1d1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1d1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1e0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1e0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1f1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c1f1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c20.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c200.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c200.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c211.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c211.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c221.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c221.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c230.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c230.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c241.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c241.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c251.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c251.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c260.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c260.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c271.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c271.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c281.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c281.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c290.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c290.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2a1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2a1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2b1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2c1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2c1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2d0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2d0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2e1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2e1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2f0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c2f0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c300.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c300.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c31.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c311.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c311.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c320.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c320.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c331.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c331.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c340.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c340.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c351.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c351.dat" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/NotificationsWebInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/NotificationsWebServiceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/NotifyChatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/NotifyChatManagerResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/package-info.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c360.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c360.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c371.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c371.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c380.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c380.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c391.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c391.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3a0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3a0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3b1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3c0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3c0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3d1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c3d1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c41.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c41.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c51.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c51.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c60.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c71.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c81.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c90.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/ca1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/castor-0.9.5.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/castor-0.9.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cb1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cc0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cc0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cd1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cd1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/ce1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/ce1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cf0.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/collapsed.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/collapsed.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/commons-codec-1.3.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/commons-codec-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/commons-collections-2.1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/commons-collections-2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/commons-dbcp-1.2.1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/commons-dbcp-1.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/commons-logging-1.0.4.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/commons-logging-1.0.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/commons-pool-1.2.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/commons-pool-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/concurrent-1.3.4.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/concurrent-1.3.4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/db.lck" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/derby-10.1.1.0.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/derby-10.1.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/expanded.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/expanded.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/external.png" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/external.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/fix.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/fix.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/icon_error_sml.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/icon_error_sml.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/icon_info_sml.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/icon_info_sml.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/icon_success_sml.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/icon_success_sml.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/icon_warning_sml.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/icon_warning_sml.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/jdbc-2.0.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/jdbc-2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/jms-1.1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/jms-1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/jndi-1.2.1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/jndi-1.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/jta-1.0.1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/jta-1.0.1.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log.ctrl" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/log4j-1.2.11.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/log4j-1.2.11.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/logos/maven-button-1.png" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/logos/maven-button-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/newwindow.png" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/newwindow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/none.png" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/none.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/openjms-0.7.7-beta-1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/openjms-0.7.7-beta-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/openjms-common-0.7.7-beta-1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/openjms-common-0.7.7-beta-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/openjms-net-0.7.7-beta-1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/openjms-net-0.7.7-beta-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/openjms-tools-0.7.7-beta-1.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/openjms-tools-0.7.7-beta-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/openjms-tunnel-0.7.7-beta-1.war" afterPath="$PROJECT_DIR$/extra/openjms/lib/openjms-tunnel-0.7.7-beta-1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/openjms.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/openjms.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/oro-2.0.8.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/oro-2.0.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/pdf.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/pdf.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/remove.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/remove.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/rss.png" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/rss.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/spice-jndikit-1.2.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/spice-jndikit-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/images/update.gif" afterPath="$PROJECT_DIR$/extra/openjms/docs/images/update.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/xerces-2.4.0.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/xerces-2.4.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/lib/xml-apis-1.0.b2.jar" afterPath="$PROJECT_DIR$/extra/openjms/lib/xml-apis-1.0.b2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/Browser.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/Browser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/DurableSubscriber.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/DurableSubscriber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/Listener.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/Listener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/model/MessageTuple.java" afterPath="$PROJECT_DIR$/src/sample/model/MessageTuple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java" afterPath="$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java" afterPath="$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/Receiver.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/Receiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/SampleListener.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/SampleListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/Sender.java" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/Sender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/admin.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/admin.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/admin.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/admin.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/admin.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/build.bat" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/build.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/build.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/build.sh" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/build.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/changes-report.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/changes-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/changes.rss" afterPath="$PROJECT_DIR$/extra/openjms/docs/changes.rss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/codestyle.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/codestyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/config.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/config.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/connectors.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/connectors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/connectors.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/connectors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_db2.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_db2.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_hsql.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_hsql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_interbase.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_interbase.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_jds.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_jds.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_mckoi.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_mckoi.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_mysql.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_mysql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_oracle.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_oracle.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_postgresql.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_postgresql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_sapdb.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_sapdb.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_sqlserver.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_sqlserver.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_sybase.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_sybase.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/create_sybaseanywhere.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/create_sybaseanywhere.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/cvs-usage.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/cvs-usage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/dbtool.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/dbtool.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/dbtool.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/dbtool.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/dependencies.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/dependencies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java" afterPath="$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" afterPath="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/derby.log" afterPath="$PROJECT_DIR$/extra/openjms/db/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/derby.properties" afterPath="$PROJECT_DIR$/extra/openjms/db/derby.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/destinations.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/destinations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/downloads.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/downloads.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/sql/drop_sqlserver.sql" afterPath="$PROJECT_DIR$/extra/openjms/db/sql/drop_sqlserver.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/embedded.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/embedded.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/embedded.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/embedded.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/examples.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/examples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/factories.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/factories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/faq.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/gc.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/gc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/gettingstarted.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/gettingstarted.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/glossary.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/glossary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/http.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/http.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/http.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/http.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/https.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/https.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/https.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/https.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/index.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/adminguide/index.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/adminguide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/index.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/index.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/adminguide/install.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/adminguide/install.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/issue-tracking.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/issue-tracking.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/jars.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/jars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/jdbc.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/jdbc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/jndi.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/jndi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/jndi.properties" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/jndi.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/license.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/license.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/config/log4j.xml" afterPath="$PROJECT_DIR$/extra/openjms/config/log4j.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/mail-lists.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/mail-lists.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managedChat.iml" afterPath="$PROJECT_DIR$/managedChat.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/style/maven-base.css" afterPath="$PROJECT_DIR$/extra/openjms/docs/style/maven-base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/style/maven-classic.css" afterPath="$PROJECT_DIR$/extra/openjms/docs/style/maven-classic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/maven-reports.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/maven-reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/style/maven-theme.css" afterPath="$PROJECT_DIR$/extra/openjms/docs/style/maven-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/openjms.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/openjms.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/openjms.log" afterPath="$PROJECT_DIR$/extra/openjms/bin/openjms.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/config/openjms.policy" afterPath="$PROJECT_DIR$/extra/openjms/config/openjms.policy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/openjms.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/openjms.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/config/openjms.xml" afterPath="$PROJECT_DIR$/extra/openjms/config/openjms.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/style/print.css" afterPath="$PROJECT_DIR$/extra/openjms/docs/style/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/project-info.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/project-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/reference.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/reference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/release-notes.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/release-notes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/rmi.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/rmi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/rmi.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/rmi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/roadmap.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/roadmap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/run.bat" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/run.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/examples/basic/run.sh" afterPath="$PROJECT_DIR$/extra/openjms/examples/basic/run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/adminguide/running.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/adminguide/running.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/security.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/security.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/service.properties" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/setenv.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/setenv.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/setenv.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/setenv.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/shutdown.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/shutdown.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/shutdown.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/shutdown.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/source.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/startup.bat" afterPath="$PROJECT_DIR$/extra/openjms/bin/startup.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/startup.sh" afterPath="$PROJECT_DIR$/extra/openjms/bin/startup.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/submit.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/submit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/tcp.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/tcp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/tcp.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/tcp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/config/tcps.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/config/tcps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/tcps.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/tcps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/team-list.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/team-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/test.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/usersguide/using.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/usersguide/using.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/docs/devguide/volunteers.html" afterPath="$PROJECT_DIR$/extra/openjms/docs/devguide/volunteers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -251,6 +35,9 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
@@ -287,8 +74,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -299,7 +86,7 @@
       <file leaf-file-name="ChatManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -308,15 +95,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerTopicSubscriber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManagerTopicSubscriber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30394432">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1566#1785#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaSpacesSingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="1830">
+              <caret line="129" column="70" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInWindowController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45411393" vertical-offset="1108" max-vertical-offset="1815">
+              <caret line="93" column="118" selection-start-line="93" selection-start-column="118" selection-end-line="93" selection-end-column="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2774#2983#0" expanded="true" />
+                <element signature="e#2982#2983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -339,11 +148,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -368,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/sample/SpyMain.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/MessagesAnalyser.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/ChatWindowController.java" />
-        <option value="$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/webService/NotificationsWebInterface.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/webService/NotificationWeb.java" />
         <option value="$PROJECT_DIR$/src/sample/main/Main.java" />
@@ -380,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/package-info.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/SpyWindowController.java" />
         <option value="$PROJECT_DIR$/src/sample/main/ChatMain.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" />
         <option value="$PROJECT_DIR$/src/sample/view/shnaia.form" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/SubscribeTopic.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/TopicPublisher.java" />
@@ -394,17 +196,16 @@
         <option value="$PROJECT_DIR$/src/sample/main/ChatManagerMain.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/ChatManager.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" />
       </list>
     </option>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="704" />
+    <option name="x" value="-3" />
+    <option name="width" value="1286" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -447,6 +248,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -656,8 +459,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -675,7 +476,7 @@
     <property name="options.lastSelected" value="copyright" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/extra/openjms/lib" />
@@ -760,32 +561,14 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="managedChat" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -809,27 +592,16 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -847,40 +619,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -909,6 +647,75 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
@@ -1017,14 +824,16 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
+    <frame x="-3" y="0" width="1286" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="RMI Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1034,29 +843,27 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30390626" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27716535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27664155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="RMI Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1075,10 +882,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1094,6 +901,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
     <MESSAGE value="oooo" />
     <MESSAGE value="começo da implementação das tuplas" />
     <MESSAGE value="começo da implementação do chat" />
@@ -1113,9 +923,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -1123,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main/ChatMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
@@ -1131,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1143,7 +973,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -1151,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main/ChatMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
@@ -1159,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1171,7 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1179,7 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1191,28 +1021,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/UsersListWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/chatWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1224,112 +1054,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/usersListWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/chatWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/spyWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/UsersListWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/signInWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/signInWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/apache-river-2.2.0/configentry/browser">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/apache-river-2.2.0/exemplo/space/ReadMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3580902">
+        <state vertical-scroll-proportion="0.3580902" vertical-offset="0" max-vertical-offset="0">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/apache-river-2.2.0/exemplo/space/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/apache-river-2.2.0/exemplo/space/Lookup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5597015">
+        <state vertical-scroll-proportion="-0.5597015" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/usersListWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88688946">
+        <state vertical-scroll-proportion="0.88688946" vertical-offset="0" max-vertical-offset="0">
           <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/signInWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
           <folding />
         </state>
@@ -1337,14 +1167,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/spyWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.477707">
+        <state vertical-scroll-proportion="0.477707" vertical-offset="0" max-vertical-offset="0">
           <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/model/UserInformationTuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53781515">
+        <state vertical-scroll-proportion="0.53781515" vertical-offset="0" max-vertical-offset="0">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding />
         </state>
@@ -1352,33 +1182,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33248731">
+        <state vertical-scroll-proportion="0.33248731" vertical-offset="0" max-vertical-offset="0">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/UsersListWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="46.607143">
+        <state vertical-scroll-proportion="46.607143" vertical-offset="0" max-vertical-offset="0">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0757825">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2774#2983#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8517298">
+        <state vertical-scroll-proportion="0.8517298" vertical-offset="0" max-vertical-offset="0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -1386,7 +1204,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4176334">
+        <state vertical-scroll-proportion="0.4176334" vertical-offset="0" max-vertical-offset="0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
@@ -1394,7 +1212,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/JMSSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38283062">
+        <state vertical-scroll-proportion="0.38283062" vertical-offset="0" max-vertical-offset="0">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1404,7 +1222,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44315544">
+        <state vertical-scroll-proportion="0.44315544" vertical-offset="0" max-vertical-offset="0">
           <caret line="31" column="13" selection-start-line="27" selection-start-column="14" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1414,7 +1232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/model/MessageTuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7215777">
+        <state vertical-scroll-proportion="0.7215777" vertical-offset="0" max-vertical-offset="0">
           <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="e#561#562#0" expanded="true" />
@@ -1425,7 +1243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25290024">
+        <state vertical-scroll-proportion="-0.25290024" vertical-offset="0" max-vertical-offset="0">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1435,7 +1253,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main/ChatMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="5" selection-start-line="9" selection-start-column="22" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
@@ -1443,7 +1261,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main/ChatManagerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1454,7 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/chatWindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8700696">
+        <state vertical-scroll-proportion="0.8700696" vertical-offset="0" max-vertical-offset="0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
@@ -1462,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/chatManager.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27842227">
+        <state vertical-scroll-proportion="0.27842227" vertical-offset="0" max-vertical-offset="0">
           <caret line="8" column="218" selection-start-line="8" selection-start-column="218" selection-end-line="8" selection-end-column="218" />
           <folding />
         </state>
@@ -1470,7 +1288,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1480,12 +1298,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30394432">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1566#1785#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="1830">
+          <caret line="129" column="70" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45411393" vertical-offset="1108" max-vertical-offset="1815">
+          <caret line="93" column="118" selection-start-line="93" selection-start-column="118" selection-end-line="93" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2774#2983#0" expanded="true" />
+            <element signature="e#2982#2983#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1550,6 +1386,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

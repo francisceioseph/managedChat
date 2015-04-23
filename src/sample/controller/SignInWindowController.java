@@ -91,7 +91,7 @@ public class SignInWindowController implements Initializable{
                 this.closeWindow();
             }
             else {
-                JOptionPane.showMessageDialog(null, "Usuário não cadastrado no sistema...", "Aviso", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Não foi possível entrar. Verifique seu nome de usuário e senha...", "Aviso", JOptionPane.ERROR_MESSAGE);
             }
         } catch (TransactionException e) {
             e.printStackTrace();
