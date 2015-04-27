@@ -33,7 +33,7 @@ public class SignInWindowController implements Initializable{
             this.registerNewUser(username, password);
         }
         else{
-            JOptionPane.showMessageDialog(null, "Nome de usuário já cadastrado \nEscolha outro nome de usuário", "Aviso", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Nome de usuário já cadastrado \nEscolha outro nome de usuáriora", "Aviso", JOptionPane.ERROR_MESSAGE);
         }
 
     }

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
+
 <GridPane alignment="center" hgap="10" prefHeight="297.0" prefWidth="380.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SpyWindowController">
     <columnConstraints>
         <ColumnConstraints halignment="CENTER" prefWidth="370.0" />
@@ -21,7 +25,6 @@
                       <Font size="19.0" />
                   </font>
             </Label>
-            <ToggleButton fx:id="startButton" mnemonicParsing="false" onAction="#onStartButtonClick" text="Start Analyses" />
          </children>
       </HBox>
         <ListView fx:id="wordsListView" prefHeight="280.0" prefWidth="374.0" GridPane.rowIndex="1" />

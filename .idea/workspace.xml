@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesFinder.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController$MessagesFinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/ChatWindowController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/JavaSpacesSingleton.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/JavaSpacesSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/model/MessageTuple.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/model/MessageTuple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/MessagesAnalyser.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/javaSpaces/MessagesAnalyser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/helper/webService/NotificationsWeb.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/helper/webService/NotificationsWeb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/controller/SignInWindowController.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/controller/SignInWindowController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/managedChat/sample/main/WebServiceMain.class" afterPath="$PROJECT_DIR$/out/production/managedChat/sample/main/WebServiceMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c360.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c360.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c371.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c371.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c380.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c380.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c391.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/seg0/c391.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/db.lck" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/db.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log.ctrl" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log1.dat" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/log1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/extra/openjms/db/openjmsdb/log/logmirror.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/controller/ChatManager.java" afterPath="$PROJECT_DIR$/src/sample/controller/ChatManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" afterPath="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/controller/SpyWindowController.java" afterPath="$PROJECT_DIR$/src/sample/controller/SpyWindowController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/main/WebServiceMain.java" afterPath="$PROJECT_DIR$/src/sample/main/WebServiceMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/db/derby.log" afterPath="$PROJECT_DIR$/extra/openjms/db/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/openjms/bin/openjms.log" afterPath="$PROJECT_DIR$/extra/openjms/bin/openjms.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/view/spyWindow.fxml" afterPath="$PROJECT_DIR$/src/sample/view/spyWindow.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -69,8 +91,8 @@
       <file leaf-file-name="ChatManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="600">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +103,20 @@
       <file leaf-file-name="ManagerTopicSubscriber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+            <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="855">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2895">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,22 +127,74 @@
       <file leaf-file-name="JavaSpacesSingleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="1830">
-              <caret line="129" column="70" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1830">
+              <caret line="88" column="56" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInWindowController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignInWindowController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21677215" vertical-offset="388" max-vertical-offset="1815">
-              <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1785">
+              <caret line="35" column="112" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2813#3022#0" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpyWindowController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.72477067" vertical-offset="179" max-vertical-offset="615">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesAnalyser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1440">
+              <caret line="74" column="58" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerTopicPublisher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="780">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationsWebInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWebInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationsWeb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,9 +248,7 @@
         <option value="$PROJECT_DIR$/src/sample/controller/UsersListWindowController.java" />
         <option value="$PROJECT_DIR$/src/sample/main/MainWebService.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/webService/NotificationsWebService.java" />
-        <option value="$PROJECT_DIR$/src/sample/main/WebServiceMain.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/sample/helper/webservice/package-info.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/SpyWindowController.java" />
         <option value="$PROJECT_DIR$/src/sample/main/ChatMain.java" />
         <option value="$PROJECT_DIR$/src/sample/view/shnaia.form" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/SubscribeTopic.java" />
@@ -177,10 +261,12 @@
         <option value="$PROJECT_DIR$/src/sample/helper/jms/JMS_Singleton.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/JMSSingleton.java" />
         <option value="$PROJECT_DIR$/src/sample/main/ChatManagerMain.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/ChatManager.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java" />
         <option value="$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java" />
         <option value="$PROJECT_DIR$/src/sample/controller/SignInWindowController.java" />
+        <option value="$PROJECT_DIR$/src/sample/main/WebServiceMain.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/ChatManager.java" />
+        <option value="$PROJECT_DIR$/src/sample/controller/SpyWindowController.java" />
       </list>
     </option>
   </component>
@@ -188,7 +274,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
     <option name="width" value="1286" />
-    <option name="height" value="1026" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,8 +317,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,8 +523,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openjms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openjms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managedChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -806,14 +946,20 @@
       <option name="project" value="LOCAL" />
       <updated>1429805768224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Conserto de bug: melhoria de mensagens de usuário.">
+      <created>1429805879474</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1429805879474</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1286" height="1026" extended-state="6" />
+    <frame x="-3" y="0" width="1286" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="RMI Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -828,14 +974,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32723358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30390626" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27664155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2765625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -900,7 +1046,8 @@
     <MESSAGE value="- Impedimento de se mandar uma mensagem vazia no chat&#10;- Começo da implementação do webservice&#10;- Renomeação de alguns pacotes para que eles melhor se adequem a sua fuuncionalidade." />
     <MESSAGE value="- Força encerramento do processo quando a tela é fechada." />
     <MESSAGE value="Conserto de bug: usuário poderia enviar mensagem para si mesmo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conserto de bug: usuário poderia enviar mensagem para si mesmo" />
+    <MESSAGE value="Conserto de bug: melhoria de mensagens de usuário." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conserto de bug: melhoria de mensagens de usuário." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,6 +1060,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
@@ -945,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,8 +1111,6 @@
           <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2813#3022#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,8 +1136,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2813#3022#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,8 +1154,6 @@
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2813#3022#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,8 +1185,6 @@
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2813#3022#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1162,21 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/model/UserInformationTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53781515" vertical-offset="0" max-vertical-offset="0">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33248731" vertical-offset="0" max-vertical-offset="0">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/UsersListWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="46.607143" vertical-offset="0" max-vertical-offset="0">
@@ -1184,60 +1316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8517298" vertical-offset="0" max-vertical-offset="0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4176334" vertical-offset="0" max-vertical-offset="0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/JMSSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38283062" vertical-offset="0" max-vertical-offset="0">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44315544" vertical-offset="0" max-vertical-offset="0">
-          <caret line="31" column="13" selection-start-line="27" selection-start-column="14" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/model/MessageTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7215777" vertical-offset="0" max-vertical-offset="0">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25290024" vertical-offset="0" max-vertical-offset="0">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,7 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="5" selection-start-line="9" selection-start-column="22" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,10 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,10 +1353,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/main/WebServiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/model/MessageTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/model/UserInformationTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1830">
+          <caret line="88" column="56" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/ChatWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="2775">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1740">
+          <caret line="35" column="112" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/MessagesAnalyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1440">
+          <caret line="74" column="58" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWebInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/webService/NotificationsWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="780">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1288,7 +1450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/helper/jms/ManagerTopicSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="855">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1296,23 +1458,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/helper/javaSpaces/JavaSpacesSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SpyWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="1830">
-          <caret line="129" column="70" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.72477067" vertical-offset="179" max-vertical-offset="615">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controller/SignInWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21677215" vertical-offset="388" max-vertical-offset="1815">
-          <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2813#3022#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

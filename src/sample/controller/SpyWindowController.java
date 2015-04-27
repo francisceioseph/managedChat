@@ -21,8 +21,6 @@ public class SpyWindowController implements Initializable{
     public TextField newWordTextField;
     public MessagesAnalyser analyser;
 
-    public ToggleButton startButton;
-
     public void includeObservableWord(ActionEvent actionEvent) {
         String newWord = newWordTextField.getText();
 
@@ -36,16 +34,13 @@ public class SpyWindowController implements Initializable{
     public void initialize(URL url, ResourceBundle resourceBundle) {
         JavaSpacesSingleton.INSTANCE.observableWords = FXCollections.observableArrayList();
         wordsListView.setItems(JavaSpacesSingleton.INSTANCE.observableWords);
+
+        this.startWordAnalyses();
     }
 
     private void startWordAnalyses(){
         this.analyser = new MessagesAnalyser();
         Thread thread = new Thread(analyser);
         thread.start();
-    }
-
-    public void onStartButtonClick(ActionEvent actionEvent) {
-        this.startButton.setDisable(true);
-        this.startWordAnalyses();
     }
 }

@@ -21,8 +21,8 @@ public class ChatManager implements Initializable{
     public void initialize(URL url, ResourceBundle resourceBundle) {
         suspiciousMessagesListView.setItems(JMSSingleton.INSTANCE.suspiciousMessagesReceived);
 
-        System.out.println("Shanya");
         ManagerTopicSubscriber subscriber = new ManagerTopicSubscriber();
+
         try {
             subscriber.subscribeDefaultTopic();
         } catch (NamingException e) {
